@@ -12,23 +12,23 @@ Superhero Hunter is a web application that utilizes the Superhero API to fetch d
 3. Favorite Superheroes: Users can mark their favorite superheroes and access them later for quick reference.
 
 # Technologies Used
-1.HTML
-2.CSS
-3.JavaScript
-4.Superhero API
+1. HTML
+2. CSS
+3. JavaScript
+4. Superhero API
 
 # Getting Started
 To run the project locally, follow these steps:
-1.Clone this repository: git clone https://github.com/vishakha161996/superhero-hunter.git
-2.Navigate to the project directory.
-3.Open index.html in your web browser.
+1. Clone this repository: git clone https://github.com/vishakha161996/superhero-hunter.git
+2. Navigate to the project directory.
+3. Open index.html in your web browser.
 
 # How to Use
-1.Open the Superhero Hunter web application.
-2.Enter the name of the superhero you want to search for in the search bar.
-3.Press the "Search" button.
-4.View detailed information about the superhero.
-Optionally, mark the superhero as a favorite by clicking on the "Add to Favourite" button.
+1. Open the Superhero Hunter web application.
+2. Enter the name of the superhero you want to search for in the search bar.
+3. Press the "Search" button.
+4. View detailed information about the superhero.
+5. Optionally, mark the superhero as a favorite by clicking on the "Add to Favourite" button.
 
 # Credits
 This project utilizes the Superhero API, which provides access to a vast database of superhero information.
