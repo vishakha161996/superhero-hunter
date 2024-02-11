@@ -36,11 +36,7 @@ This project utilizes the Superhero API, which provides access to a vast databas
 # Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-# Contact Information
-
+# Contact
 Feel free to reach out to me via email at panwarvishakha31@gmail.com or connect with me on LinkedIn https://www.linkedin.com/in/vishakha-panwar-55a84114b/. I'm open to collaborations, job opportunities, or just a friendly chat!
 
 Thank you!
