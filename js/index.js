@@ -61,12 +61,12 @@ function display(data){
             templateCanvas.getElementById("comic").innerHTML = '<b>Comic Available: </b>'+ result.comics.available ;
             templateCanvas.getElementById("series").innerHTML = '<b>Series Available: </b>'+ result.series.available ;
             templateCanvas.getElementById("stories").innerHTML = '<b>Stories Available: </b>'+ result.stories.available ;
-            //  Set Event listenet for Learn more button 
+            //  Set Event listener for Learn more button 
             templateCanvas.getElementById('learn-more').addEventListener('click', function(){
                 localStorage.setItem('id', result.id);
                 window.location.assign('./about.html');
             });
-            //  Set Event listenet for Fav button 
+            //  Set Event listener for Fav button 
             templateCanvas.getElementById('fav').addEventListener('click', function(){
                 var index = localStorage.length;
                 var data = JSON.stringify(result);
