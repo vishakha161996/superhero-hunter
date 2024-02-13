@@ -12,15 +12,9 @@ function fetch(){
     Request.send();
     Request.onload = function(){
         var response = JSON.parse(Request.response);
-        // Print all the Resoponses in the formate of JSON
+        // Print all the Resoponses in the format of JSON
         console.log(response);
         // According to all Id's i will get elemets and change its inner HTML by the Responses
-        '<div class="row">' +
-            '<div class="col-md-6">' +
-            '</div>' +
-            '<div class="col-md-6">' +
-            '</div>' +
-        '</div>'
             document.getElementById("thumbnail").innerHTML = '<img src="' + response.data.results[0].thumbnail.path + '.' + response.data.results[0].thumbnail.extension + '" style="height:auto;width:100%;padding-bottom:20px;" class="mx-auto d-block"/>';
             document.getElementById("name").innerHTML = '<b>Name: </b> ' + response.data.results[0].name;
             document.getElementById("id").innerHTML = '<b>Hero ID: </b> ' + response.data.results[0].id ;
